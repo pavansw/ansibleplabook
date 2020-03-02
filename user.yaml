@@ -5,5 +5,5 @@
    tasks:
     - name: Adding user
       user:
-       name: guest3
+       name: guest4
        state: present
