@@ -1,0 +1,10 @@
+  
+---
+ - name: Add/Delete users
+#   hosts: all
+   become: yes
+   tasks:
+    - name: Adding user
+      user:
+       name: guest4
+       state: present
