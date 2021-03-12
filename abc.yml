@@ -1,7 +1,7 @@
   
 ---
  - name: Add/Delete users
-#   hosts: all
+   hosts: all
    become: yes
    tasks:
     - name: Adding user
